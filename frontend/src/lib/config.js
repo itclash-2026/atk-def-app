@@ -1,0 +1,4 @@
+import { PUBLIC_API_URL } from '$env/static/public';
+
+export const API_BASE = PUBLIC_API_URL;
+export const BASE_URL = PUBLIC_API_URL.replace('/api', '');
